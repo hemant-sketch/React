@@ -4,6 +4,8 @@ import LikeButton from './LikeButton.jsx';
 import LudoBoard from './LudoBoard.jsx';
 import TodoList from './TodoList.jsx';
 import Form from './Form.jsx';
+import CommentsForm from './CommentsForm.jsx';
+import Comment from './Comment.jsx';
 
 function App() {
   return (
@@ -13,7 +15,10 @@ function App() {
      {/* <LikeButton/> */}
      {/* <LudoBoard/> */}
      {/* <TodoList/> */}
-     <Form/>
+     {/* <Form/> */}
+     <Comment/>
+     {/* <CommentsForm/> */}
+
     </>
   )
 }
