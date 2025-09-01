@@ -6,19 +6,13 @@ import TodoList from './TodoList.jsx';
 import Form from './Form.jsx';
 import CommentsForm from './CommentsForm.jsx';
 import Comment from './Comment.jsx';
+import Counter2 from './Counter2';
+import Joker from "./Joker.jsx";
 
 function App() {
   return (
     <>
-     {/* <p>States in React</p> */}
-     {/* <Counter/><br/> */}
-     {/* <LikeButton/> */}
-     {/* <LudoBoard/> */}
-     {/* <TodoList/> */}
-     {/* <Form/> */}
-     <Comment/>
-     {/* <CommentsForm/> */}
-
+     <Joker/>
     </>
   )
 }

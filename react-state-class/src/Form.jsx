@@ -25,7 +25,7 @@ export default function Form() {
         let newValue = event.target.value;  
         // console.log(newValue);
         
-        setFormData((currData) => {
+        setFormData((currData) => {  // computed property name yeh [] ke andar
             return { ...currData, [fieldName] : newValue};  // react mein variable to likhne ka tareek with a []
         })
     }
